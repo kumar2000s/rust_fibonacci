@@ -1,0 +1,6 @@
+[package]
+name = "fibnocci"
+version = "0.1.0"
+authors = ["Sunil Kumar <kumar2000s@gmail.com>"]
+
+[dependencies]
