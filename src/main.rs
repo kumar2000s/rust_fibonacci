@@ -11,7 +11,7 @@ fn main() {
     fibs.push(1);
 
     let  mut i= 2;
-    //let  lastv: Option<&i32> = fibs.get(fibs.len()-1);
+    //let  lastval: Option<&i32> = fibs.get(fibs.len()-1);
     while i<num {
        let  lastval:i32  = fibs.get(fibs.len()-1).unwrap()+ fibs.get(fibs.len()-2).unwrap();
        //println!("{}",lastval);
